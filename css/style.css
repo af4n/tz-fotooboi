@@ -1,0 +1,531 @@
+/* header */
+
+.header {
+	width: 100%;
+	background: #FFF;
+}
+
+.header .container {
+	max-width: 75em;
+	height: 3.5em;
+	margin: 0 auto;
+	
+}
+
+.logo-img {
+	display: inline-block;
+	float: left;
+	margin: 7px 0 0 5px;
+}
+
+.logo-img:hover {
+	background: url(../img/logo-hover.png) 0 0 no-repeat;
+}
+
+.logo-text {
+	display: inline-block;
+	float: left;
+	font: 0.813em/1.125em ProximaNovaRegular; 
+	margin: 15px 0 0 20px;
+	color: black;
+	text-transform: uppercase;
+}
+
+.call-back-number {
+	display: inline-block;
+	float: right;
+	margin: 11px 15px 0 0;
+}
+
+.call-back-number p {
+	color: black;
+	font: 1.944em/1.167em ProximaNovaBold;
+	text-transform: uppercase;
+
+}
+
+.call-back {
+	display: inline-block;
+	float: right;
+	margin: 15px 15px 0 0;
+}
+
+.btn-cb {
+	height: 30px;
+  	background: #ff4f58;
+    background-image: -webkit-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: -moz-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: -ms-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: -o-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: linear-gradient(to bottom, #ff4f58, #fd7048);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: ProximaNovaBold;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 8px 10px 10px 10px;
+    border: 1px solid #ff8400 ;
+    text-decoration: none;
+	font-weight: 700;
+}
+
+.btn-cb:hover {
+    background: #fd7048;
+    background-image: -webkit-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: -moz-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: -ms-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: -o-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: linear-gradient(to bottom, #fd7048, #ff4f58);
+    text-decoration: none;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+/* @media header */
+
+@media only screen and (max-width : 1200px) {
+    .logo-img {
+    	margin-left: 20px;
+    }
+    .call-back {
+    	margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .logo-img {
+    	margin-left: 20px;
+    }
+    .call-back {
+    	margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .call-back-number p {
+    	font: 1.2em/0.8em ProximaNovaBold;
+    	margin: 10px 0 0 0;
+    }
+    .logo-text {
+    	display: none;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+	.call-back-number p {
+		display: none;
+	}
+}
+
+/* playroom */
+
+.playroom {
+	background: #999 url(../img/detskaya-1.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 797px;
+}
+
+/* nav */
+
+.nav {
+	background: url(../img/nav-bg.png) 0 0 no-repeat;
+	width: 100%;
+	height: 35px;
+}
+
+.nav ul {
+	margin-left: 55px;
+}
+
+.nav ul li {
+	float: left;
+	padding: 10px 0 12px 65px;
+}
+
+.nav ul li a {
+	font: 0.875em/0.875em ProximaNovaRegular;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.nav ul li a:hover {
+	text-decoration: none;
+}
+
+.nav span {
+	color: #fff;
+	padding-left: 65px;
+}
+
+/* @media nav */
+
+@media only screen and (max-width : 1200px) {
+	.nav ul li {
+		padding-left: 45px;
+	}
+	.nav span {
+		padding-left: 45px;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.nav ul li {
+		padding-left: 25px;
+	}
+	.nav span {
+		padding-left: 25px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.nav ul li a {
+		font: 0.6em ProximaNovaRegular;
+	}
+	.nav ul {
+		margin-left: 30px;
+	}
+	.nav ul li {
+		padding-left: 10px;
+	}
+	.nav span {
+		padding-left: 10px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.nav ul li a {
+		font: 0.55em ProximaNovaRegular;
+	}
+	.nav ul {
+		margin-left: 10px;
+	}
+}
+
+/* room-content */
+
+.room-content {
+	background: url(../img/blackout.png) 0 0 no-repeat;
+	height: 484px;
+	position: relative;
+}
+
+.room-content .container {
+	max-width: 75em;
+}
+
+.room-content .row {
+	margin-top: 35px;
+}
+
+.room-content .stip-line {
+	float: left;
+}
+
+.room-content .container .row .col-xs-12, .col-sm-12, .col-md-6, .col-lg-6 .stip-line {
+	background: url(../img/stip-line.png) 0 0 no-repeat;
+}
+
+
+.room-content .mural {
+	position: relative;
+	background: url(../img/mural.png) 0 0 no-repeat;
+	width: 613px;
+	height: 110px;
+	left: 20px;
+}
+
+.room-content .mural h1 {
+	position: absolute;
+	font: 5.5em IntroRegular;
+	left: 30px;
+	top: 3px;
+	color: #333;
+}
+
+.room-content .children {
+	position: relative;
+	background: url(../img/children-bg.png) 0 0 no-repeat;
+	width: 294px;
+	height: 63px;
+	left: -1px;
+	top: 11px;
+	float: left;
+}
+
+.room-content .children h3 {
+	position: absolute;
+	font: 2.250em IntroBlackItalic;
+	left: 27px;
+	top: 5px;
+	border-bottom: 3px solid #333;
+	padding-left: 8px;
+	color: #333;
+}
+
+.room-content .price {
+	position: relative;
+	background: url(../img/price-ot.png) 0 0 no-repeat;
+	width: 193px;
+	height: 61px;
+	left: 289px;
+	top: 17px;
+}
+
+.room-content .price p, h2 {
+	float: left;
+	position: relative;
+	color: #FFF;
+	bottom: 63px;
+	left: 17px;
+}
+
+.room-content .price p {
+	font: 1em/1em IntroRegular;
+}
+
+.room-content .price span {
+	font: 2.45em IntroRegular; 
+	padding: 0 10px;
+}
+
+.room-content .ideas {
+	position: relative;
+	top: 100px;
+}
+
+.room-content .ideas p {
+	position: absolute;
+	font: 1.2em/1.5em ProximaNovaBold;
+	color: #FFF;
+	text-transform: uppercase;
+	bottom: 20px;
+	left: 42px;
+}
+
+.room-content .btn-ideas {
+	position: absolute;
+	left: 42px;
+  	background: #ff4f58;
+    background-image: -webkit-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: -moz-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: -ms-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: -o-linear-gradient(top, #ff4f58, #fd7048);
+    background-image: linear-gradient(to bottom, #ff4f58, #fd7048);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #ffffff;
+    font: 23px/23px ProximaNovaBold;
+    padding: 10px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.room-content .btn-ideas:hover {
+    background: #fd7048;
+    background-image: -webkit-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: -moz-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: -ms-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: -o-linear-gradient(top, #fd7048, #ff4f58);
+    background-image: linear-gradient(to bottom, #fd7048, #ff4f58);
+    text-decoration: none;
+} 
+
+/* @media room-content */
+
+@media only screen and (max-width : 767px) {
+	.room-content {
+		background: url(../img/blackout-sm.png) 0 0 no-repeat;
+	}
+	.room-content .container .row .col-xs-12, .col-sm-12, .stip-line {
+		background: url(../img/stip-line-sm.png) 0 0 no-repeat;
+		left: 20px;
+	}
+	.room-content .mural {
+		background: url(../img/mural-sm.png) 0 0 no-repeat;
+		font: 0.7em IntroRegular;
+		left: 15px;
+	}
+	.room-content .children {
+		position: relative;
+		background: url(../img/children-bg-sm.png) 0 0 no-repeat;
+		top: -22px;
+		right: 2px;
+		font: 0.7em IntroBlackItalic;
+	}
+	.room-content .price {
+		position: relative;
+		background: url(../img/price-ot-sm.png) 0 0 no-repeat;
+		top: -16px;
+		left: 218px;
+	}
+	.room-content .price p {
+		font: 0.7em/0.7em IntroRegular;
+	}	
+	.room-content .ideas p {
+		bottom: 50px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.room-content {
+		background: url(../img/blackout-xs.png) 0 0 no-repeat;
+	}
+	.room-content .container .row .col-xs-12, .col-sm-12, .stip-line {
+		background: url(../img/stip-line-xs.png) 0 0 no-repeat;
+		left: 20px;
+	}
+	.room-content .mural {
+		background: url(../img/mural-xs.png) 0 0 no-repeat;
+		font: 0.5em IntroRegular;
+		left: 4px;
+	}
+	.room-content .mural h1 {
+		left: 15px;
+	}
+	.room-content .children {
+		background: url(../img/children-bg-xs.png) 0 0 no-repeat;
+		top: -48px;
+		left: -7px;
+		font: 0.5em IntroBlackItalic;
+	}
+	.room-content .children h3 {
+		left: 10px;
+	}
+	.room-content .price {
+		position: relative;
+		background: url(../img/price-ot-xs.png) 0 0 no-repeat;
+		top: -45px;
+		left: 138px;
+	}
+	.room-content .price p {
+		font: 0.5em IntroRegular;
+		left: 9px;
+	}	
+	.room-content .price span {
+		padding: 0 5px;
+	}
+	.room-content .ideas p {
+		bottom: 80px;
+		left: 15px;
+	}
+	.room-content .btn-ideas {
+		left: 15px;
+		bottom: 0px;
+	}
+}
+
+
+/* footer */
+
+.footer {
+	background: url(../img/footer-bg.png) 0 0 no-repeat;
+	height: 279px;
+}
+
+.footer .container {
+	max-width: 75em;
+	margin: 0 auto;
+}
+
+.footer .container .row img {
+	margin-top: 20px;
+}
+
+.footer .container .row h4 {
+	font: 1.2em/1.2em ProximaNovaBold;
+	margin-top: 20px;
+	color: #000;
+}
+
+.footer .container .row p {
+	font: 1em/0.75em ProximaNovaRegular;
+	margin-top: 20px;
+	color: #000;
+}
+
+/* @media footer */
+
+@media only screen and (max-width : 991px) {
+	.footer .container {
+		width: 90%;
+	}
+	.footer .container .row img {
+		margin-top: 5px;
+		width: 15%;
+	}
+	.footer .container .row h4 {
+		font: 1em ProximaNovaBold;
+		margin-top: 5px;
+	}
+	.footer .container .row p {
+		font: 0.6em ProximaNovaBold;
+		margin-top: 5px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.footer .container .row h4 {
+		font: 0.75em ProximaNovaBold;
+		margin-top: 2px;
+	}
+	.footer .container .row p {
+		font: 0.625em ProximaNovaBold;
+		margin-top: 2px;
+	}
+	.footer .container .row img {
+		margin-top: 10px;
+		width: 20%;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.footer .container .row h4 {
+		font-size: 12px;
+		margin-top: 2px;
+	}
+	.footer .container .row p {
+		font-size: 10px;
+		margin-top: 2px;
+	}
+}
+/* hall */
+
+.hall {
+	background: #999 url(../img/zal-1.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 797px;
+}
+
+/* bedroom */
+
+.bedroom {
+	background: #999 url(../img/spalnya-1.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 797px;
+}
+
+/* kitchen */
+
+.kitchen {
+	background: #999 url(../img/kuhnya-1.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 797px;
+}
